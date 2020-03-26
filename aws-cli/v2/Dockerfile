@@ -1,7 +1,7 @@
 # Ubuntu is the smallest supported distribution
 # - https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-prereq
 # - https://github.com/aws/aws-cli/issues/4685#issuecomment-556436861
-ARG UBUNTU_VERSION=latest
+ARG UBUNTU_VERSION=18.04@sha256:bec5a2727be7fff3d308193cfde3491f8fba1a2ba392b7546b43a051853a341d
 FROM ubuntu:${UBUNTU_VERSION}
 
 # Copy AWS public key
